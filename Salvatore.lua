@@ -1,7 +1,7 @@
 
 
 local endpoint = "https://httpbin.org/user-agent"
-local api = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Richard-Salvatore/DeviceCheckerAPI/main/Salvatore.lua", true))()
+local api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Richard-Salvatore/DeviceCheckerAPI/main/Salvatore.lua", true))()
 
 local http = game:GetService("HttpService")
 

@@ -1,3 +1,6 @@
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
 
 
 local endpoint = "https://httpbin.org/user-agent"
